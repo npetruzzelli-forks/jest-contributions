@@ -1,0 +1,14 @@
+# https://git-scm.com/book/en/v2/Customizing-Git-Git-Attributes
+# https://git-scm.com/docs/gitattributes
+# https://github.com/alexkaratarakis/gitattributes/blob/master/Web.gitattributes
+# https://github.com/h5bp/html5-boilerplate/blob/master/dist/.gitattributes
+* text=auto
+
+# Enforce Unix newlines
+*.js          text eol=lf
+*.jsx         text eol=lf
+*.json        text eol=lf
+*.markdown    text eol=lf
+*.md          text eol=lf
+*.ts          text eol=lf
+*.tsx         text eol=lf
