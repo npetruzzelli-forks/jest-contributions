@@ -1,7 +1,7 @@
 const fs = require('fs')
 const path = require('path')
 const CaseSensitivePathsPlugin = require('case-sensitive-paths-webpack-plugin')
-const paths = require ('../config/paths')
+const paths = require('../config/paths')
 
 const PACKAGE_NAME = 'web-test'
 const testSpecDir = path.resolve(paths.appPath, 'tests')

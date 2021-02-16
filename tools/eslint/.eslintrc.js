@@ -17,11 +17,11 @@ module.exports = {
     // MUST BE LAST. Disable rules that could conflict with Prettier.
     'prettier',
     'prettier/standard',
-    'prettier/babel',
+    'prettier/babel'
   ],
   // Preserve rules that are carefully set with Prettier in mind
   rules: {
-    'babel/quotes':mainrc.rules['babel/quotes']
+    'babel/quotes': mainrc.rules['babel/quotes']
   },
   overrides: [
     {
