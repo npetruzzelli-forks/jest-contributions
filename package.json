@@ -15,6 +15,8 @@
   },
   "devDependencies": {
     "@babel/core": "7.12.10",
+    "@babel/eslint-parser": "7.12.1",
+    "@babel/eslint-plugin": "7.12.1",
     "@babel/plugin-proposal-class-properties": "7.12.1",
     "@babel/plugin-proposal-decorators": "7.12.12",
     "@babel/plugin-proposal-nullish-coalescing-operator": "7.12.1",
@@ -26,11 +28,26 @@
     "@babel/runtime": "7.12.13",
     "@chiragrupani/karma-chromium-edge-launcher": "2.1.0",
     "@types/jasmine": "3.6.3",
+    "@typescript-eslint/eslint-plugin": "4.13.0",
+    "@typescript-eslint/parser": "4.13.0",
+    "babel-eslint": "10.1.0",
     "babel-loader": "8.2.2",
     "babel-plugin-macros": "3.0.1",
     "babel-plugin-named-asset-import": "0.3.7",
     "case-sensitive-paths-webpack-plugin": "2.3.0",
     "core-js": "3.8.3",
+    "eslint": "7.18.0",
+    "eslint-config-prettier": "7.1.0",
+    "eslint-config-standard": "16.0.2",
+    "eslint-plugin-babel": "5.3.1",
+    "eslint-plugin-flowtype": "5.2.0",
+    "eslint-plugin-import": "2.22.1",
+    "eslint-plugin-jsx-a11y": "6.4.1",
+    "eslint-plugin-node": "11.1.0",
+    "eslint-plugin-prettier": "3.3.1",
+    "eslint-plugin-promise": "4.2.1",
+    "eslint-plugin-react": "7.22.0",
+    "eslint-plugin-react-hooks": "4.2.0",
     "karma": "6.0.3",
     "karma-chrome-launcher": "3.1.0",
     "karma-edge-launcher": "0.4.2",
@@ -42,6 +59,7 @@
     "karma-sourcemap-loader": "0.3.8",
     "karma-summary-reporter": "2.0.0",
     "karma-webpack": "4.0.2",
+    "prettier": "2.2.1",
     "regenerator-runtime": "0.13.7",
     "webpack": "4.46.0"
   },
@@ -66,5 +84,11 @@
       "last 1 safari version",
       "ie 11"
     ]
-  }
+  },
+  "eslintConfig": {
+    "extends": [
+      "./tools/eslint/.eslintrc.js"
+    ]
+  },
+  "prettier": "./tools/prettier/.prettierrc.js"
 }
