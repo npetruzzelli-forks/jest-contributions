@@ -9,9 +9,9 @@ module.exports = function configureKarma(config) {
   // Webpack Config
 
   const webpackArgv = {
-      env: {
-        type: 'test',
-        testEnv: 'karma'
+    env: {
+      type: 'test',
+      testEnv: 'karma'
     }
   }
   const webpackConfig = createWebpackConfig(webpackArgv.env, webpackArgv)

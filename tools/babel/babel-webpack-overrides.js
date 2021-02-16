@@ -3,7 +3,7 @@
  *
  * This source code is licensed under the MIT license found in the
  * LICENSE file in the root directory of this source tree.
- * 
+ *
  * @see {@link https://github.com/facebook/create-react-app/blob/v4.0.2/packages/babel-preset-react-app/webpack-overrides.js}
  */
 'use strict'
