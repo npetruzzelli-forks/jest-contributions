@@ -1,0 +1,14 @@
+# Some code editor plugins may not use/respect ignore settings passed to
+# Prettier, so we need to explicitly ignore node_modules with this file at all
+# possible locations. The repository root alone is not enough, such as when
+# working with Yarn workspaces.
+**/.yarn
+**/bower_components
+**/jspm_packages
+**/node_modules
+
+# Temporary directories for build and development tools
+**/.tmp
+**/.sass-cache
+**/build
+**/dist
