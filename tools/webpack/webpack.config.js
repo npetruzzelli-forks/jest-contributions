@@ -123,7 +123,7 @@ module.exports = function createWebpackConfig(env, argv) {
             // Process application JS with Babel.
             // The preset includes JSX, Flow, TypeScript, and some ESnext features.
             {
-              test: /\.(js|mjs|jsx|ts|tsx)$/,
+              test: /\.(js|mjs|jsx|ts|tsx|cjs)$/,
               include: [
                 paths.appSrc,
                 // if `testSpecDir` is a descendant of `paths.appSrc`, then
